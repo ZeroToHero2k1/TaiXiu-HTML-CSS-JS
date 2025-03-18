@@ -1,0 +1,80 @@
+body{
+    background-color: gold;
+}
+.title{
+    background-color: aquamarine;
+    color: brown;
+    text-align: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    background-color: cadetblue;
+    justify-content: center;
+}
+.number{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    color:red;
+    background-color: aqua;
+    font-size: 100px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.thaoTac{
+    display: grid;
+    margin: 20px;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: cornflowerblue;
+}
+.datCuoc{
+    display: flex;
+    justify-items: center;
+    
+}
+.btnDatCuoc{
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+    font-size: 30px;
+}
+#lacXiNgau{
+    background-color: chartreuse;
+    color: crimson;
+    font-size: 25px;
+    width: 100px;
+    height: 50px;
+    margin-left: 55px;
+}
+#khuiKq{
+    margin-top: 20px;
+    background-color: blueviolet;
+    color: coral;
+    font-size: 25px;
+    width: 100px;
+    height: 50px;
+    margin-left: 55px;
+}
+#btnTai{
+    background-color: tomato;
+    color: gold;
+}
+#btnXiu{
+    background-color: blue;
+    color: aqua;
+}
+#kq{
+    background-color: rgb(240, 32, 146);
+    color: greenyellow;
+    font-size: 30px;
+}
+#btnAgain{
+    background-color: pink;
+    color: black;
+    font-size: 20px;
+}
