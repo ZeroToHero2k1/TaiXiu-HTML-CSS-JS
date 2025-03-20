@@ -7,6 +7,9 @@ body{
     text-align: center;
     justify-content: center;
 }
+h1{
+    display: inline-block;
+}
 .container{
     display: flex;
     background-color: cadetblue;
@@ -24,7 +27,8 @@ body{
     align-items: center;
 }
 .thaoTac{
-    display: grid;
+    display: flex;
+    flex-direction: column;
     margin: 20px;
     background-color: bisque;
     justify-content: center;
@@ -40,7 +44,6 @@ body{
 .btnDatCuoc{
     height: 50px;
     width: 100px;
-    margin: 5px;
     font-size: 30px;
 }
 #lacXiNgau{
@@ -49,7 +52,6 @@ body{
     font-size: 25px;
     width: 100px;
     height: 50px;
-    margin-left: 55px;
 }
 #khuiKq{
     margin-top: 20px;
@@ -58,7 +60,7 @@ body{
     font-size: 25px;
     width: 100px;
     height: 50px;
-    margin-left: 55px;
+
 }
 #btnTai{
     background-color: tomato;
